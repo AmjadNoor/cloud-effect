@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: red;
-}
-
 #parallax {
   position: relative;
   width: 100%;
@@ -26,7 +22,7 @@ body {
   color: #fff;
 }
 
-#parallax #clouds {
+/*#parallax #clouds {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,4 +55,9 @@ body {
   100% {
     translate: scale(3);
   }
+}*/
+
+section {
+  position: relative;
+  padding: 50px 25px;
 }
